@@ -90,10 +90,6 @@ def process_season(season, audio_idx, sub_idx, server):
         process_episode(episode, audio_idx, sub_idx, server)
 
 
-sub_keyword = ['dialogue', 'full']
-dub_keyword = ['sign', 'song', 'signs', 'songs']
-
-
 def main():
     # Usage: python3 [?username]
     username = "" if len(sys.argv) < 2 else sys.argv[1]
